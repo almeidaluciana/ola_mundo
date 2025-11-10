@@ -5,6 +5,8 @@ void main() {
 }
 
 class AppWidget extends StatelessWidget {
+  const AppWidget({super.key});
+
   @override
   Widget build(BuildContext context) {
     return HomePage();
@@ -19,13 +21,18 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  int count = 0;
+
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text(
-        "Olá mundo!",
-        textDirection: TextDirection.ltr,
-        style: TextStyle(color: Colors.white, fontSize: 50),
+      child: GestureDetector(
+        child: Text(
+          "Contador: $count",
+          textDirection: TextDirection.ltr,
+          style: TextStyle(color: Colors.white, fontSize: 50),
+        ),
+        onTap: () => setState(() => count++),
       ),
     );
   }
