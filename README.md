@@ -4,14 +4,10 @@ Este é o **primeiro aplicativo Flutter**, que eu desenvolvi em **sala de aula**
 
 O app é um **contador simples**: cada vez que o usuário toca no texto, o número exibido aumenta.
 
----
-
 ## Tecnologias utilizadas
 
 - [Flutter](https://flutter.dev/)
 - [Dart](https://dart.dev/)
-
----
 
 ## Como executar?
 
