@@ -1,16 +1,42 @@
-# ola_mundo
+# Olá Mundo
 
-A new Flutter project.
+Este é o **primeiro aplicativo Flutter**, que eu desenvolvi em **sala de aula** para **ensinar os conceitos básicos do Flutter**, como estrutura de widgets, gerenciamento de estado e interação com o usuário.
 
-## Getting Started
+O app é um **contador simples**: cada vez que o usuário toca no texto, o número exibido aumenta.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologias utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Como executar?
+
+Clone o repositório:
+
+```sh
+git clone https://github.com/almeidaluciana/ola_mundo.git
+```
+
+Acesse a pasta do projeto:
+
+```sh
+cd ola_mundo
+```
+
+Baixe as dependências do Flutter:
+
+```sh
+flutter pub get
+```
+
+Abra o projeto no VS Code:
+
+```sh
+code .
+```
+
+Execute o aplicativo com **Ctrl + F5**, você deverá escolher em qual dispositivo deseja rodar o projeto (emulador, web ou dispositivo físico).
